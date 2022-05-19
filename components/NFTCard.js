@@ -21,7 +21,7 @@ const NFTCard = ({ data }) => {
           resizeMode="cover"
           style={{ width: "100%", height: "100%", borderTopLeftRadius: SIZES.font, borderTopRightRadius: SIZES.font }}
         />
-        <CircleButton imageUrl={assets.heart} right={10} top={10} />
+        <CircleButton imgUrl={assets.heart} right={10} top={10} />
       </View>
 
       <SubInfo />
