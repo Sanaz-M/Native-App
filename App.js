@@ -22,7 +22,10 @@ const App = () => {
     InterLight: require('./assets/fonts/Inter-Light.ttf'),
     InterRegular: require('./assets/fonts/Inter-Regular.ttf'),
     InterMedium: require('./assets/fonts/Inter-Medium.ttf')
-  })
+  });
+
+  if (!loaded) return null;
+
   return (
     <NavigationContainer theme={theme}>
       <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="Home">
